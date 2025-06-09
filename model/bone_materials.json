@@ -1,0 +1,3586 @@
+[
+	{
+		"paletteMat": true,
+		"id": 0,
+		"shader": "PHONG",
+		"color": {
+			"value": -1,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 1,
+		"shader": "PHONG",
+		"color": {
+			"value": -65536,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 2,
+		"shader": "PHONG",
+		"color": {
+			"value": -32768,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 3,
+		"shader": "PHONG",
+		"color": {
+			"value": -16640,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 4,
+		"shader": "PHONG",
+		"color": {
+			"value": -256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 5,
+		"shader": "PHONG",
+		"color": {
+			"value": -4194560,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 6,
+		"shader": "PHONG",
+		"color": {
+			"value": -8323328,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 7,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711936,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 8,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711766,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 9,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711681,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 10,
+		"shader": "PHONG",
+		"color": {
+			"value": -16728065,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 11,
+		"shader": "PHONG",
+		"color": {
+			"value": -16744193,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 12,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776961,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 13,
+		"shader": "PHONG",
+		"color": {
+			"value": -8388353,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 14,
+		"shader": "PHONG",
+		"color": {
+			"value": -4259585,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 15,
+		"shader": "PHONG",
+		"color": {
+			"value": -65281,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 16,
+		"shader": "PHONG",
+		"color": {
+			"value": -65408,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 17,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555904,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 18,
+		"shader": "PHONG",
+		"color": {
+			"value": -2528256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 19,
+		"shader": "PHONG",
+		"color": {
+			"value": -2514176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 20,
+		"shader": "PHONG",
+		"color": {
+			"value": -2500352,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 21,
+		"shader": "PHONG",
+		"color": {
+			"value": -6039296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 22,
+		"shader": "PHONG",
+		"color": {
+			"value": -9643776,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 23,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721664,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 24,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721520,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 25,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721447,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 26,
+		"shader": "PHONG",
+		"color": {
+			"value": -16735271,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 27,
+		"shader": "PHONG",
+		"color": {
+			"value": -16749351,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 28,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776999,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 29,
+		"shader": "PHONG",
+		"color": {
+			"value": -9699111,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 30,
+		"shader": "PHONG",
+		"color": {
+			"value": -6094631,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 31,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555687,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 32,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 33,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046272,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 34,
+		"shader": "PHONG",
+		"color": {
+			"value": -5023488,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 35,
+		"shader": "PHONG",
+		"color": {
+			"value": -5011968,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 36,
+		"shader": "PHONG",
+		"color": {
+			"value": -5000448,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 37,
+		"shader": "PHONG",
+		"color": {
+			"value": -7949568,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 38,
+		"shader": "PHONG",
+		"color": {
+			"value": -10898688,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 39,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731392,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 40,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731273,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 41,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 42,
+		"shader": "PHONG",
+		"color": {
+			"value": -16742733,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 43,
+		"shader": "PHONG",
+		"color": {
+			"value": -16754253,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 44,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777037,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 45,
+		"shader": "PHONG",
+		"color": {
+			"value": -10944333,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 46,
+		"shader": "PHONG",
+		"color": {
+			"value": -7995213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 47,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046093,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 48,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046183,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 49,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 50,
+		"shader": "PHONG",
+		"color": {
+			"value": -7584256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 51,
+		"shader": "PHONG",
+		"color": {
+			"value": -7575296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 52,
+		"shader": "PHONG",
+		"color": {
+			"value": -7566336,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 53,
+		"shader": "PHONG",
+		"color": {
+			"value": -9860096,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 54,
+		"shader": "PHONG",
+		"color": {
+			"value": -12153856,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 55,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741376,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 56,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741283,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 57,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741236,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 58,
+		"shader": "PHONG",
+		"color": {
+			"value": -16750196,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 59,
+		"shader": "PHONG",
+		"color": {
+			"value": -16759156,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 60,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777076,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 61,
+		"shader": "PHONG",
+		"color": {
+			"value": -12189556,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 62,
+		"shader": "PHONG",
+		"color": {
+			"value": -9895796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 63,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602036,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 64,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602106,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 65,
+		"shader": "PHONG",
+		"color": {
+			"value": -65536,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 66,
+		"shader": "PHONG",
+		"color": {
+			"value": -32768,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 67,
+		"shader": "PHONG",
+		"color": {
+			"value": -16640,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 68,
+		"shader": "PHONG",
+		"color": {
+			"value": -256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 69,
+		"shader": "PHONG",
+		"color": {
+			"value": -4194560,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 70,
+		"shader": "PHONG",
+		"color": {
+			"value": -8323328,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 71,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711936,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 72,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711766,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 73,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711681,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 74,
+		"shader": "PHONG",
+		"color": {
+			"value": -16728065,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 75,
+		"shader": "PHONG",
+		"color": {
+			"value": -16744193,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 76,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776961,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 77,
+		"shader": "PHONG",
+		"color": {
+			"value": -8388353,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 78,
+		"shader": "PHONG",
+		"color": {
+			"value": -4259585,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 79,
+		"shader": "PHONG",
+		"color": {
+			"value": -65281,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 80,
+		"shader": "PHONG",
+		"color": {
+			"value": -65408,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 81,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555904,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 82,
+		"shader": "PHONG",
+		"color": {
+			"value": -2528256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 83,
+		"shader": "PHONG",
+		"color": {
+			"value": -2514176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 84,
+		"shader": "PHONG",
+		"color": {
+			"value": -2500352,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 85,
+		"shader": "PHONG",
+		"color": {
+			"value": -6039296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 86,
+		"shader": "PHONG",
+		"color": {
+			"value": -9643776,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 87,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721664,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 88,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721520,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 89,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721447,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 90,
+		"shader": "PHONG",
+		"color": {
+			"value": -16735271,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 91,
+		"shader": "PHONG",
+		"color": {
+			"value": -16749351,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 92,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776999,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 93,
+		"shader": "PHONG",
+		"color": {
+			"value": -9699111,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 94,
+		"shader": "PHONG",
+		"color": {
+			"value": -6094631,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 95,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555687,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 96,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 97,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046272,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 98,
+		"shader": "PHONG",
+		"color": {
+			"value": -5023488,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 99,
+		"shader": "PHONG",
+		"color": {
+			"value": -5011968,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 100,
+		"shader": "PHONG",
+		"color": {
+			"value": -5000448,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 101,
+		"shader": "PHONG",
+		"color": {
+			"value": -7949568,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 102,
+		"shader": "PHONG",
+		"color": {
+			"value": -10898688,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 103,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731392,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 104,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731273,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 105,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 106,
+		"shader": "PHONG",
+		"color": {
+			"value": -16742733,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 107,
+		"shader": "PHONG",
+		"color": {
+			"value": -16754253,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 108,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777037,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 109,
+		"shader": "PHONG",
+		"color": {
+			"value": -10944333,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 110,
+		"shader": "PHONG",
+		"color": {
+			"value": -7995213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 111,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046093,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 112,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046183,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 113,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 114,
+		"shader": "PHONG",
+		"color": {
+			"value": -7584256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 115,
+		"shader": "PHONG",
+		"color": {
+			"value": -7575296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 116,
+		"shader": "PHONG",
+		"color": {
+			"value": -7566336,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 117,
+		"shader": "PHONG",
+		"color": {
+			"value": -9860096,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 118,
+		"shader": "PHONG",
+		"color": {
+			"value": -12153856,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 119,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741376,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 120,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741283,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 121,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741236,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 122,
+		"shader": "PHONG",
+		"color": {
+			"value": -16750196,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 123,
+		"shader": "PHONG",
+		"color": {
+			"value": -16759156,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 124,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777076,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 125,
+		"shader": "PHONG",
+		"color": {
+			"value": -12189556,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 126,
+		"shader": "PHONG",
+		"color": {
+			"value": -9895796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 127,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602036,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 128,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602106,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 129,
+		"shader": "PHONG",
+		"color": {
+			"value": -65536,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 130,
+		"shader": "PHONG",
+		"color": {
+			"value": -32768,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 131,
+		"shader": "PHONG",
+		"color": {
+			"value": -16640,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 132,
+		"shader": "PHONG",
+		"color": {
+			"value": -256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 133,
+		"shader": "PHONG",
+		"color": {
+			"value": -4194560,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 134,
+		"shader": "PHONG",
+		"color": {
+			"value": -8323328,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 135,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711936,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 136,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711766,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 137,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711681,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 138,
+		"shader": "PHONG",
+		"color": {
+			"value": -16728065,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 139,
+		"shader": "PHONG",
+		"color": {
+			"value": -16744193,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 140,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776961,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 141,
+		"shader": "PHONG",
+		"color": {
+			"value": -8388353,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 142,
+		"shader": "PHONG",
+		"color": {
+			"value": -4259585,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 143,
+		"shader": "PHONG",
+		"color": {
+			"value": -65281,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 144,
+		"shader": "PHONG",
+		"color": {
+			"value": -65408,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 145,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555904,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 146,
+		"shader": "PHONG",
+		"color": {
+			"value": -2528256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 147,
+		"shader": "PHONG",
+		"color": {
+			"value": -2514176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 148,
+		"shader": "PHONG",
+		"color": {
+			"value": -2500352,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 149,
+		"shader": "PHONG",
+		"color": {
+			"value": -6039296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 150,
+		"shader": "PHONG",
+		"color": {
+			"value": -9643776,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 151,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721664,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 152,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721520,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 153,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721447,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 154,
+		"shader": "PHONG",
+		"color": {
+			"value": -16735271,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 155,
+		"shader": "PHONG",
+		"color": {
+			"value": -16749351,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 156,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776999,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 157,
+		"shader": "PHONG",
+		"color": {
+			"value": -9699111,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 158,
+		"shader": "PHONG",
+		"color": {
+			"value": -6094631,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 159,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555687,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 160,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 161,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046272,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 162,
+		"shader": "PHONG",
+		"color": {
+			"value": -5023488,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 163,
+		"shader": "PHONG",
+		"color": {
+			"value": -5011968,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 164,
+		"shader": "PHONG",
+		"color": {
+			"value": -5000448,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 165,
+		"shader": "PHONG",
+		"color": {
+			"value": -7949568,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 166,
+		"shader": "PHONG",
+		"color": {
+			"value": -10898688,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 167,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731392,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 168,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731273,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 169,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 170,
+		"shader": "PHONG",
+		"color": {
+			"value": -16742733,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 171,
+		"shader": "PHONG",
+		"color": {
+			"value": -16754253,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 172,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777037,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 173,
+		"shader": "PHONG",
+		"color": {
+			"value": -10944333,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 174,
+		"shader": "PHONG",
+		"color": {
+			"value": -7995213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 175,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046093,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 176,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046183,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 177,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 178,
+		"shader": "PHONG",
+		"color": {
+			"value": -7584256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 179,
+		"shader": "PHONG",
+		"color": {
+			"value": -7575296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 180,
+		"shader": "PHONG",
+		"color": {
+			"value": -7566336,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 181,
+		"shader": "PHONG",
+		"color": {
+			"value": -9860096,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 182,
+		"shader": "PHONG",
+		"color": {
+			"value": -12153856,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 183,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741376,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 184,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741283,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 185,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741236,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 186,
+		"shader": "PHONG",
+		"color": {
+			"value": -16750196,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 187,
+		"shader": "PHONG",
+		"color": {
+			"value": -16759156,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 188,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777076,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 189,
+		"shader": "PHONG",
+		"color": {
+			"value": -12189556,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 190,
+		"shader": "PHONG",
+		"color": {
+			"value": -9895796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 191,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602036,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 192,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602106,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 193,
+		"shader": "PHONG",
+		"color": {
+			"value": -65536,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 194,
+		"shader": "PHONG",
+		"color": {
+			"value": -32768,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 195,
+		"shader": "PHONG",
+		"color": {
+			"value": -16640,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 196,
+		"shader": "PHONG",
+		"color": {
+			"value": -256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 197,
+		"shader": "PHONG",
+		"color": {
+			"value": -4194560,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 198,
+		"shader": "PHONG",
+		"color": {
+			"value": -8323328,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 199,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711936,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 200,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711766,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 201,
+		"shader": "PHONG",
+		"color": {
+			"value": -16711681,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 202,
+		"shader": "PHONG",
+		"color": {
+			"value": -16728065,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 203,
+		"shader": "PHONG",
+		"color": {
+			"value": -16744193,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 204,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776961,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 205,
+		"shader": "PHONG",
+		"color": {
+			"value": -8388353,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 206,
+		"shader": "PHONG",
+		"color": {
+			"value": -4259585,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 207,
+		"shader": "PHONG",
+		"color": {
+			"value": -65281,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 208,
+		"shader": "PHONG",
+		"color": {
+			"value": -65408,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 209,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555904,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 210,
+		"shader": "PHONG",
+		"color": {
+			"value": -2528256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 211,
+		"shader": "PHONG",
+		"color": {
+			"value": -2514176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 212,
+		"shader": "PHONG",
+		"color": {
+			"value": -2500352,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 213,
+		"shader": "PHONG",
+		"color": {
+			"value": -6039296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 214,
+		"shader": "PHONG",
+		"color": {
+			"value": -9643776,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 215,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721664,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 216,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721520,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 217,
+		"shader": "PHONG",
+		"color": {
+			"value": -16721447,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 218,
+		"shader": "PHONG",
+		"color": {
+			"value": -16735271,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 219,
+		"shader": "PHONG",
+		"color": {
+			"value": -16749351,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 220,
+		"shader": "PHONG",
+		"color": {
+			"value": -16776999,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 221,
+		"shader": "PHONG",
+		"color": {
+			"value": -9699111,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 222,
+		"shader": "PHONG",
+		"color": {
+			"value": -6094631,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 223,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555687,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 224,
+		"shader": "PHONG",
+		"color": {
+			"value": -2555796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 225,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046272,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 226,
+		"shader": "PHONG",
+		"color": {
+			"value": -5023488,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 227,
+		"shader": "PHONG",
+		"color": {
+			"value": -5011968,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 228,
+		"shader": "PHONG",
+		"color": {
+			"value": -5000448,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 229,
+		"shader": "PHONG",
+		"color": {
+			"value": -7949568,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 230,
+		"shader": "PHONG",
+		"color": {
+			"value": -10898688,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 231,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731392,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 232,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731273,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 233,
+		"shader": "PHONG",
+		"color": {
+			"value": -16731213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 234,
+		"shader": "PHONG",
+		"color": {
+			"value": -16742733,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 235,
+		"shader": "PHONG",
+		"color": {
+			"value": -16754253,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 236,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777037,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 237,
+		"shader": "PHONG",
+		"color": {
+			"value": -10944333,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 238,
+		"shader": "PHONG",
+		"color": {
+			"value": -7995213,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 239,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046093,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 240,
+		"shader": "PHONG",
+		"color": {
+			"value": -5046183,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 241,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602176,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 242,
+		"shader": "PHONG",
+		"color": {
+			"value": -7584256,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 243,
+		"shader": "PHONG",
+		"color": {
+			"value": -7575296,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 244,
+		"shader": "PHONG",
+		"color": {
+			"value": -7566336,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 245,
+		"shader": "PHONG",
+		"color": {
+			"value": -9860096,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 246,
+		"shader": "PHONG",
+		"color": {
+			"value": -12153856,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 247,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741376,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 248,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741283,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 249,
+		"shader": "PHONG",
+		"color": {
+			"value": -16741236,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 250,
+		"shader": "PHONG",
+		"color": {
+			"value": -16750196,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 251,
+		"shader": "PHONG",
+		"color": {
+			"value": -16759156,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 252,
+		"shader": "PHONG",
+		"color": {
+			"value": -16777076,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 253,
+		"shader": "PHONG",
+		"color": {
+			"value": -12189556,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 254,
+		"shader": "PHONG",
+		"color": {
+			"value": -9895796,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	},
+	{
+		"paletteMat": true,
+		"id": 255,
+		"shader": "PHONG",
+		"color": {
+			"value": -7602036,
+			"falpha": 0.0
+		},
+		"diffuse": 0.8,
+		"ambience": 0.6,
+		"emission": 0.0,
+		"specular": 0.0,
+		"power": 5.0
+	}
+]
