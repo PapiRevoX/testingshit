@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca">
+   <left>
+      <BorderPane fx:id="leftBorderPane" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <center>
+            <TabPane fx:id="leftTabPane" side="LEFT" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+              <tabs>
+                <Tab text="Textures">
+                     <content>
+                        <BorderPane>
+                           <center>
+                              <ListView fx:id="textureList" BorderPane.alignment="CENTER">
+                                 <contextMenu>
+                                    <ContextMenu>
+                                      <items>
+                                        <MenuItem fx:id="exportTexture" mnemonicParsing="false" text="Export" />
+                                          <MenuItem fx:id="deleteTexture" mnemonicParsing="false" text="Delete" />
+                                      </items>
+                                    </ContextMenu>
+                                 </contextMenu></ListView>
+                           </center>
+                           <bottom>
+                              <ToolBar fx:id="textureToolbar" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                <items>
+                                  <Button fx:id="addTextureButton" mnemonicParsing="false" text="Add" />
+                                    <Button fx:id="addBulkTextures" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Bulk add" />
+                                    <Pane HBox.hgrow="ALWAYS" />
+                                    <Button fx:id="exportAll" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Export all" />
+                                </items>
+                              </ToolBar>
+                           </bottom>
+                           <top>
+                              <TextField fx:id="searchField" promptText="Search..." BorderPane.alignment="CENTER" />
+                           </top>
+                        </BorderPane>
+                     </content>
+                </Tab>
+                <Tab fx:id="operationsTab" text="Texture operations">
+                     <content>
+                        <BorderPane>
+                           <bottom>
+                              <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                <items>
+                                  <Button fx:id="addOperationButton" mnemonicParsing="false" text="Add operation" visible="false" />
+                                </items>
+                              </ToolBar>
+                           </bottom>
+                           <center>
+                              <ListView fx:id="operationList" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                     </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+      </BorderPane>
+   </left>
+   <center>
+      <BorderPane fx:id="centerBorderPane" BorderPane.alignment="CENTER">
+         <center>
+            <TabPane tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Opaque">
+                     <content>
+                        <TreeView fx:id="opaqueTree" prefHeight="200.0" prefWidth="200.0" />
+                     </content>
+                </Tab>
+                <Tab text="Translucent">
+                     <content>
+                        <TreeView fx:id="translucentTree" prefHeight="200.0" prefWidth="200.0" />
+                     </content>
+                </Tab>
+                  <Tab text="Combined">
+                     <content>
+                        <TreeView fx:id="combinedTree" prefHeight="200.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                  <CheckBox fx:id="movableCheckBox" mnemonicParsing="false" text="Mark at movable" visible="false" />
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Label fx:id="textureDimensions" />
+              </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </center>
+   <right>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+            <TabPane fx:id="rightTabPane" prefHeight="403.0" prefWidth="330.0" side="RIGHT" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="materialPropertiesTab" text="Material properties">
+                     <content>
+                        <TreeTableView fx:id="materialProperties" />
+                     </content>
+                </Tab>
+                <Tab fx:id="operationPropertiesTab" text="Operation properties">
+                     <content>
+                        <TreeTableView fx:id="operationProperties" prefHeight="200.0" prefWidth="200.0" />
+                     </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+         <top>
+            <Canvas fx:id="texturePreview" height="192.0" width="192.0" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <ToolBar fx:id="rightBottomToolbar" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                   <Pane HBox.hgrow="ALWAYS" />
+                  <Button fx:id="saveTexture" mnemonicParsing="false" text="Save texture" visible="false" />
+               </items></ToolBar>
+         </bottom>
+      </BorderPane>
+   </right>
+</BorderPane>

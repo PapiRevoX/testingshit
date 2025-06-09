@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="725.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cb">
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+            <Button fx:id="addButton" mnemonicParsing="false" text="Import" />
+            <Button fx:id="saveButton" disable="true" mnemonicParsing="false" text="Export" />
+          <Button fx:id="deleteButton" disable="true" mnemonicParsing="false" style="-fx-background-color: red;" text="Delete" textFill="WHITE" />
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" />
+            <Button fx:id="chooseButton" disable="true" mnemonicParsing="false" text="Choose" />
+        </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <Pagination fx:id="pagination" pageCount="1" prefHeight="30.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <TextField fx:id="searchField" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

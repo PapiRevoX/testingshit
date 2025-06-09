@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="915.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bW">
+   <left>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <TitledPane collapsible="false" prefHeight="200.0" prefWidth="200.0" text="General">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="52.0" layoutY="167.0" text="Color:" />
+                              <ColorPicker fx:id="paintingColor" layoutX="112.0" layoutY="164.0" prefHeight="26.0" prefWidth="198.0" />
+                              <Label layoutX="52.0" layoutY="21.0" text="Type:" />
+                              <ComboBox fx:id="paintingTypes" layoutX="112.0" layoutY="14.0" prefHeight="26.0" prefWidth="199.0" promptText="Choose A type..." />
+                              <Label layoutX="52.0" layoutY="70.0" text="Skin:" />
+                              <Label layoutX="52.0" layoutY="117.0" text="Alpha:" />
+                              <CheckBox fx:id="typeToggle" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="skinToggle" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="alphaToggle" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="colorToggle" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" />
+                              <TextField fx:id="paintingSkinField" layoutX="112.0" layoutY="63.0" prefHeight="26.0" prefWidth="197.0" text="-1" />
+                              <TextField fx:id="paintingAlpha" layoutX="112.0" layoutY="109.0" prefHeight="26.0" prefWidth="197.0" promptText="Alpha..." text="-1" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <VBox.margin>
+                        <Insets top="-1.0" />
+                     </VBox.margin>
+                  </TitledPane>
+                  <TitledPane collapsible="false" text="Texture">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <HBox layoutX="125.0" layoutY="10.0" prefHeight="26.0" prefWidth="125.0" />
+                              <Label layoutX="18.0" layoutY="105.0" text="Texture layer:" />
+                              <ComboBox fx:id="texturePaintingLayers" layoutX="115.0" layoutY="95.0" prefHeight="26.0" prefWidth="198.0" promptText="Choose A layer..." />
+                              <Label layoutX="52.0" layoutY="20.0" text="Texture:" />
+                              <Button fx:id="textureButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="115.0" layoutY="20.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" styleClass="no-padding" />
+                              <CheckBox fx:id="textureToggle" disable="true" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </TitledPane>
+               </children>
+            </VBox>
+         </center>
+         <top>
+            <BorderPane prefHeight="0.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <center>
+                  <Label styleClass="header" text="Faces to replace" wrapText="true" />
+               </center>
+               <right>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+               </right>
+            </BorderPane>
+         </top>
+         <right>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </left>
+   <right>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <TitledPane collapsible="false" prefHeight="200.0" prefWidth="200.0" text="General">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="52.0" layoutY="167.0" text="Color:" />
+                              <ColorPicker fx:id="replaceColor" layoutX="112.0" layoutY="164.0" prefHeight="26.0" prefWidth="198.0" />
+                              <Label layoutX="52.0" layoutY="21.0" text="Type:" />
+                              <ComboBox fx:id="replaceTypes" layoutX="112.0" layoutY="14.0" prefHeight="26.0" prefWidth="199.0" promptText="Choose A type..." />
+                              <Label layoutX="52.0" layoutY="70.0" text="Skin:" />
+                              <Label layoutX="52.0" layoutY="117.0" text="Alpha:" />
+                              <CheckBox fx:id="replaceTypeToggle" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="replaceSkinToggle" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="replaceAlphaToggle" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" />
+                              <CheckBox fx:id="replaceColorToggle" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" />
+                              <TextField fx:id="replaceSkin" layoutX="112.0" layoutY="63.0" prefHeight="26.0" prefWidth="197.0" promptText="Skin..." text="-1" />
+                              <TextField fx:id="replaceAlpha" layoutX="112.0" layoutY="111.0" prefHeight="26.0" prefWidth="197.0" promptText="Alpha..." text="-1" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <VBox.margin>
+                        <Insets top="-1.0" />
+                     </VBox.margin>
+                  </TitledPane>
+                  <TitledPane collapsible="false" text="Texture">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <HBox layoutX="125.0" layoutY="10.0" prefHeight="26.0" prefWidth="125.0" />
+                              <Label layoutX="18.0" layoutY="105.0" text="Texture layer:" />
+                              <ComboBox fx:id="replaceTextureLayers" layoutX="115.0" layoutY="95.0" prefHeight="26.0" prefWidth="198.0" promptText="Choose A layer..." />
+                              <Label layoutX="52.0" layoutY="20.0" text="Texture:" />
+                              <Button fx:id="replaceTextureButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="115.0" layoutY="20.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" styleClass="no-padding" />
+                              <CheckBox fx:id="replaceTextureToggle" disable="true" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </TitledPane>
+               </children>
+            </VBox>
+         </center>
+         <left>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <top>
+            <BorderPane prefHeight="0.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Label styleClass="header" text="Replace with" wrapText="true" />
+               </center>
+               <left>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </top>
+      </BorderPane>
+   </right>
+   <center>
+      <Label fx:id="info" text="Found 0 faces to replace" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" />
+          <Button fx:id="saveButton" disable="true" mnemonicParsing="false" text="Replace faces" />
+        </items>
+      </ToolBar>
+   </bottom>
+</BorderPane>

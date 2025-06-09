@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainPane" prefHeight="731.0" prefWidth="1222.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bX">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem fx:id="openCacheButton" mnemonicParsing="false" text="Open cache..." />
+                  <Menu fx:id="openRecentMenu" mnemonicParsing="false" text="Open Recent" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="importModel" disable="true" mnemonicParsing="false" text="Import" />
+            <MenuItem fx:id="newMenuItem" disable="true" mnemonicParsing="false" text="New model" visible="false" />
+                  <Menu fx:id="exportMenu" disable="true" mnemonicParsing="false" text="Export at">
+                    <items>
+                        <MenuItem fx:id="exportNewFormat" mnemonicParsing="false" text="New format" />
+                        <MenuItem fx:id="exportRS3Format" disable="true" mnemonicParsing="false" text="RS3 format" />
+                        <MenuItem fx:id="exportMQOFormat" mnemonicParsing="false" text="MQO" />
+                    </items>
+                  </Menu>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem fx:id="saveMenuItem" disable="true" mnemonicParsing="false" text="Save model" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem fx:id="quitMenuItem" mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <Menu mnemonicParsing="false" text="Face painting">
+                     <items>
+                        <RadioMenuItem fx:id="singleClickPaint" mnemonicParsing="false" text="Single click">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="facePaintToggleGroup" />
+                           </toggleGroup>
+                        </RadioMenuItem>
+                        <RadioMenuItem fx:id="doubleClickPaint" mnemonicParsing="false" selected="true" text="Double click" toggleGroup="$facePaintToggleGroup" />
+                     </items>
+                  </Menu>
+                  <MenuItem fx:id="replaceFaces" disable="true" mnemonicParsing="false" text="Replace faces" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="convertNewFormat" disable="true" mnemonicParsing="false" text="Convert to new format" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="customModelsIndex" mnemonicParsing="false" text="Set custom models index" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="Other">
+              <items>
+                  <Menu mnemonicParsing="false" text="Mass convert models">
+                    <items>
+                      <MenuItem fx:id="oldFormatToNew" mnemonicParsing="false" text="Old format to new" />
+                        <MenuItem fx:id="newFormatToOld" mnemonicParsing="false" text="New format to old" />
+                        <MenuItem fx:id="oldFormatToRS3" mnemonicParsing="false" text="Old to RS3" />
+                        <MenuItem fx:id="newFormatToRS3" mnemonicParsing="false" text="New to RS3" />
+                    </items>
+                  </Menu>
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Extension">
+              <items>
+                <MenuItem fx:id="textureEditorMenuItem" disable="true" mnemonicParsing="false" text="Texture editor" />
+              </items>
+            </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <BorderPane VBox.vgrow="ALWAYS">
+         <left>
+            <BorderPane maxWidth="-Infinity" minWidth="-Infinity" prefWidth="175.0" BorderPane.alignment="CENTER">
+               <center>
+                  <BorderPane fx:id="leftContainer" BorderPane.alignment="CENTER">
+                     <bottom>
+                        <BorderPane BorderPane.alignment="CENTER">
+                           <top>
+                              <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" prefHeight="30.0" styleClass="titled-header" text="Sequences" BorderPane.alignment="CENTER" />
+                           </top>
+                           <left>
+                              <ListView fx:id="sequences" prefHeight="296.0" prefWidth="175.0" BorderPane.alignment="CENTER" />
+                           </left>
+                        </BorderPane>
+                     </bottom>
+                     <center>
+                        <ListView fx:id="modelList" disable="true" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <contextMenu>
+                              <ContextMenu fx:id="texturesContextMenu">
+                                <items>
+                                    <MenuItem fx:id="replaceModel" mnemonicParsing="false" text="Replace" />
+                                    <MenuItem fx:id="duplicateModel" mnemonicParsing="false" text="Duplicate" />
+                                    <SeparatorMenuItem mnemonicParsing="false" />
+                                  <MenuItem fx:id="deleteModel" mnemonicParsing="false" text="Delete" />
+                                    <MenuItem fx:id="dumpModel" mnemonicParsing="false" text="Dump" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </ListView>
+                     </center>
+                  </BorderPane>
+               </center>
+               <top>
+                  <TextField fx:id="searchField" promptText="Search..." BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+         </left>
+         <right>
+            <BorderPane maxWidth="-Infinity" minWidth="-Infinity" prefWidth="360.0" BorderPane.alignment="CENTER">
+               <center>
+                  <TabPane fx:id="tabPane" side="RIGHT">
+                     <tabs>
+                        <Tab closable="false" text="Face painting">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <TitledPane collapsible="false" prefHeight="200.0" prefWidth="200.0" text="General">
+                                       <content>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                             <children>
+                                                <Label layoutX="52.0" layoutY="167.0" text="Color:" />
+                                                <ColorPicker fx:id="paintingColor" layoutX="112.0" layoutY="164.0" prefHeight="26.0" prefWidth="198.0" />
+                                                <Label layoutX="52.0" layoutY="21.0" text="Type:" />
+                                                <ComboBox fx:id="paintingTypes" layoutX="112.0" layoutY="14.0" prefHeight="26.0" prefWidth="199.0" promptText="Choose A type..." />
+                                                <Label layoutX="52.0" layoutY="70.0" text="Skin:" />
+                                                <Label layoutX="52.0" layoutY="117.0" text="Alpha:" />
+                                                <Slider fx:id="paintingAlpha" layoutX="112.0" layoutY="113.0" majorTickUnit="50.0" max="255.0" minorTickCount="5" prefHeight="40.0" prefWidth="200.0" showTickLabels="true" showTickMarks="true" />
+                                                <CheckBox fx:id="typeToggle" disable="true" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" />
+                                                <CheckBox fx:id="skinToggle" disable="true" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" />
+                                                <CheckBox fx:id="alphaToggle" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" />
+                                                <CheckBox fx:id="colorToggle" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" />
+                                                <TextField fx:id="paintingSkinField" layoutX="112.0" layoutY="63.0" prefHeight="26.0" prefWidth="197.0" text="-1" />
+                                             </children>
+                                          </AnchorPane>
+                                       </content>
+                                       <VBox.margin>
+                                          <Insets top="-1.0" />
+                                       </VBox.margin>
+                                    </TitledPane>
+                                    <TitledPane collapsible="false" text="Texture">
+                                       <content>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <HBox layoutX="125.0" layoutY="10.0" prefHeight="26.0" prefWidth="125.0" />
+                                                <Label layoutX="18.0" layoutY="105.0" text="Texture layer:" />
+                                                <ComboBox fx:id="texturePaintingLayers" layoutX="115.0" layoutY="95.0" prefHeight="26.0" prefWidth="198.0" promptText="Choose A layer..." />
+                                                <Label layoutX="52.0" layoutY="20.0" text="Texture:" />
+                                              <Button fx:id="textureButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="115.0" layoutY="20.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" styleClass="no-padding" />
+                                                <CheckBox fx:id="textureToggle" disable="true" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" />
+                                             </children>
+                                          </AnchorPane>
+                                       </content>
+                                    </TitledPane>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </Tab>
+                        <Tab fx:id="overallTab" closable="false" text="Overall">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <TitledPane animated="false" text="Vertex manipulation">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <TextField fx:id="vertexFactor" layoutX="71.0" layoutY="13.0" prefHeight="35.0" prefWidth="240.0" text="10" />
+                                                <Label layoutX="14.0" layoutY="21.0" text="Factor:" />
+                                                <Button fx:id="vertexUp" layoutX="173.0" layoutY="69.0" mnemonicParsing="false" text="↑" />
+                                                <Button fx:id="vertexRight" layoutX="208.0" layoutY="102.0" mnemonicParsing="false" text="→" />
+                                                <Button fx:id="vertexLeft" layoutX="138.0" layoutY="102.0" mnemonicParsing="false" text="�?" />
+                                                <Button fx:id="vertexBottom" layoutX="173.0" layoutY="135.0" mnemonicParsing="false" text="↓" />
+                                                <Label layoutX="18.0" layoutY="102.0" text="Direction:" />
+                                             </children>
+                                          </AnchorPane>
+                                      </content>
+                                    </TitledPane>
+                                    <TitledPane animated="false" text="Priorities">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <Button fx:id="markPriorities" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Set all priorities to 10" />
+                                             </children>
+                                          </AnchorPane>
+                                      </content>
+                                    </TitledPane>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </Tab>
+                        <Tab closable="false" text="Faces">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <ComboBox fx:id="faces" maxWidth="1.7976931348623157E308" promptText="Choose A face..." BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </BorderPane.margin>
+                                    </ComboBox>
+                                 </top>
+                                 <center>
+                                    <TreeTableView fx:id="triangleProperties" editable="true" prefHeight="269.0" prefWidth="327.0" showRoot="false" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <bottom>
+                                    <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <items>
+                                          <Button fx:id="addLayerButton1" mnemonicParsing="false" text="Add face" visible="false" />
+                                          <Pane HBox.hgrow="ALWAYS" />
+                                          <Button fx:id="removeLayerButton1" disable="true" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Remove face" textFill="WHITE" visible="false" />
+                                       </items>
+                                    </ToolBar>
+                                 </bottom>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab closable="false" text="Texture layers">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <ComboBox fx:id="textureLayers" maxWidth="1.7976931348623157E308" promptText="Choose A texture layer..." BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </BorderPane.margin></ComboBox>
+                                 </top>
+                                 <center>
+                                    <TreeTableView fx:id="textureLayerProperties" editable="true" prefHeight="269.0" prefWidth="327.0" showRoot="false" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <bottom>
+                                    <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                      <items>
+                                        <Button fx:id="addLayerButton" mnemonicParsing="false" text="Add layer" />
+                                          <Pane HBox.hgrow="ALWAYS" />
+                                          <Button fx:id="removeLayerButton" disable="true" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Remove layer" textFill="WHITE" />
+                                      </items>
+                                    </ToolBar>
+                                 </bottom>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab id="billboardsTab" fx:id="billboardsTab" closable="false" text="Billboards">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <ComboBox fx:id="billboardsComboBox" maxWidth="1.7976931348623157E308" promptText="Choose A billboard..." BorderPane.alignment="CENTER">
+                                       <BorderPane.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </BorderPane.margin>
+                                    </ComboBox>
+                                 </top>
+                                 <center>
+                                    <TreeTableView fx:id="billboardPropertiesTable" prefHeight="200.0" prefWidth="200.0" showRoot="false" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <bottom>
+                                    <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <items>
+                                          <Button fx:id="addBillboard" mnemonicParsing="false" text="Add billboard" />
+                                          <Pane HBox.hgrow="ALWAYS" />
+                                          <Button fx:id="removeBillboard" disable="true" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Remove billboard" textFill="WHITE" />
+                                       </items>
+                                    </ToolBar>
+                                 </bottom>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab closable="false" text="Rendering">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <TitledPane collapsible="false" prefHeight="277.0" prefWidth="321.0" text="Performance">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="179.0" prefWidth="321.0">
+                                             <children>
+                                                <HBox layoutX="98.0" layoutY="10.0" prefHeight="26.0" prefWidth="213.0">
+                                                   <children>
+                                                      <ToggleButton mnemonicParsing="false" styleClass="segmented_button" text="2">
+                                                         <toggleGroup>
+                                                            <ToggleGroup fx:id="aas" />
+                                                         </toggleGroup>
+                                                         <HBox.margin>
+                                                            <Insets />
+                                                         </HBox.margin>
+                                                      </ToggleButton>
+                                                      <ToggleButton mnemonicParsing="false" styleClass="segmented_button" text="4" toggleGroup="$aas">
+                                                         <HBox.margin>
+                                                            <Insets />
+                                                         </HBox.margin></ToggleButton>
+                                                      <ToggleButton mnemonicParsing="false" styleClass="segmented_button" text="8" toggleGroup="$aas">
+                                                         <HBox.margin>
+                                                            <Insets />
+                                                         </HBox.margin></ToggleButton>
+                                                      <ToggleButton mnemonicParsing="false" styleClass="segmented_button" text="16" toggleGroup="$aas" />
+                                                   </children>
+                                                </HBox>
+                                                <Label layoutX="11.0" layoutY="154.0" text="Stream:" />
+                                                <ComboBox fx:id="renderStreamList" layoutX="97.0" layoutY="149.0" prefHeight="26.0" prefWidth="213.0" />
+                                                <ComboBox fx:id="bufferTypeList" layoutX="97.0" layoutY="99.0" prefHeight="26.0" prefWidth="213.0" />
+                                                <Label layoutX="11.0" layoutY="102.0" text="Buffering:" />
+                                                <ComboBox fx:id="fpsLimitList" layoutX="99.0" layoutY="50.0" prefHeight="26.0" prefWidth="213.0" />
+                                                <Label layoutX="13.0" layoutY="53.0" text="FPS limit:" />
+                                                <Label layoutX="13.0" layoutY="15.0" text="AAS:" />
+                                             </children>
+                                          </AnchorPane>
+                                      </content>
+                                       <VBox.margin>
+                                          <Insets top="-1.0" />
+                                       </VBox.margin>
+                                    </TitledPane>
+                                    <TitledPane collapsible="false" text="Model">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <Slider fx:id="scaleSlider" layoutX="96.0" layoutY="11.0" majorTickUnit="5.0" max="40.0" min="1.0" minorTickCount="2" prefHeight="40.0" prefWidth="213.0" showTickLabels="true" showTickMarks="true" />
+                                                <Label layoutX="12.0" layoutY="15.0" text="Scale:" />
+                                                <CheckBox fx:id="showBillboards" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" selected="true" text="Show billboards" visible="false" />
+                                             </children>
+                                          </AnchorPane>
+                                      </content>
+                                    </TitledPane>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </TabPane>
+               </center>
+            </BorderPane>
+         </right>
+         <center>
+          <BorderPane fx:id="containerPane" minHeight="0.0" minWidth="0.0" styleClass="canvas-pane-grid" BorderPane.alignment="CENTER">
+               <center>
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+                     <children>
+                        <Canvas fx:id="canvas" height="200.0" width="200.0" />
+                        <Label fx:id="fpsLabel" alignment="TOP_LEFT" layoutX="7.0" layoutY="6.0" text="FPS: 60" textFill="#cccccc" />
+                     </children>
+                  </Pane>
+               </center>
+               <bottom>
+                  <BorderPane fx:id="timeline" prefHeight="150.0" prefWidth="687.0" BorderPane.alignment="CENTER">
+                     <left>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+                     </left>
+                     <right>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+                     </right>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <top>
+                              <ToolBar prefHeight="30.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                <items>
+                                    <Pane layoutX="35.0" layoutY="10.0" prefWidth="1.0" />
+                                  <Button fx:id="timelinePlay" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="3.0" styleClass="timeline-button" />
+                                    <Pane prefWidth="5.0" />
+                                    <Button fx:id="timelineStop" layoutX="10.0" layoutY="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="3.0" styleClass="timeline-button" />
+                                    <Pane layoutX="35.0" layoutY="10.0" prefWidth="1.0" />
+                                </items>
+                              </ToolBar>
+                           </top>
+                           <center>
+
+                           </center>
+                           <center>
+                              <BarChart fx:id="timelineChart" alternativeRowFillVisible="false" animated="false" horizontalGridLinesVisible="false" BorderPane.alignment="CENTER">
+                                <xAxis>
+                                  <CategoryAxis side="BOTTOM" />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis minorTickVisible="false" prefWidth="0.0" side="LEFT" tickLabelsVisible="false" tickMarkVisible="false" />
+                                </yAxis>
+                              </BarChart>
+                           </center>
+                        </BorderPane>
+                     </center></BorderPane>
+               </bottom>
+               <right>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+               </right>
+               <left>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+               </left>
+               <top>
+                  <BorderPane prefHeight="14.0" prefWidth="687.0" BorderPane.alignment="CENTER">
+                     <center>
+                        <HBox styleClass="custom-button-bar" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton fx:id="toggleFaces" mnemonicParsing="false" text="f">
+                                 <tooltip>
+                                    <Tooltip text="Show faces." />
+                                 </tooltip></ToggleButton>
+                              <ToggleButton fx:id="toggleLines" mnemonicParsing="false" text="l">
+                                 <tooltip>
+                                    <Tooltip text="Show lines." />
+                                 </tooltip></ToggleButton>
+                            <ToggleButton fx:id="toggleTextures" mnemonicParsing="false" text="t">
+                                 <tooltip>
+                                    <Tooltip text="Show textures." />
+                                 </tooltip></ToggleButton>
+                              <ToggleButton fx:id="toggleParticles" mnemonicParsing="false" text="p">
+                                 <tooltip>
+                                    <Tooltip text="Particles coming soon..." />
+                                 </tooltip>
+                              </ToggleButton>
+                              <Pane HBox.hgrow="ALWAYS" />
+                              <ToggleButton fx:id="toggleCulling" mnemonicParsing="false" text="c">
+                                 <tooltip>
+                                    <Tooltip text="Enable culling." />
+                                 </tooltip></ToggleButton>
+                              <ToggleButton fx:id="toggleGrid" layoutX="279.0" layoutY="10.0" mnemonicParsing="false" text="g">
+                                 <tooltip>
+                                    <Tooltip text="Show grid." />
+                                 </tooltip></ToggleButton>
+                              <Pane HBox.hgrow="ALWAYS" />
+                              <CheckBox fx:id="togglePoints" mnemonicParsing="false" text="Show">
+                                 <HBox.margin>
+                                    <Insets right="6.0" top="8.0" />
+                                 </HBox.margin>
+                                 <tooltip>
+                                    <Tooltip text="Show points" />
+                                 </tooltip>
+                              </CheckBox>
+                              <ComboBox fx:id="pointsList" prefHeight="39.0" prefWidth="170.0" promptText="Choose points..." />
+                           </children>
+                        </HBox>
+                     </center>
+                     <right>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+                     </right>
+                     <left>
+                        <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+                     </left>
+                  </BorderPane>
+               </top></BorderPane>
+         </center>
+      </BorderPane>
+      <HBox id="HBox" fx:id="statusBar" alignment="CENTER_LEFT" prefHeight="33.0" spacing="5.0" styleClass="status-bar">
+         <children>
+            <Pane prefWidth="700.0" HBox.hgrow="ALWAYS" />
+            <Label text="Powered bA https://rscedit.io/" HBox.hgrow="NEVER" />
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </HBox>
+  </children>
+</VBox>
